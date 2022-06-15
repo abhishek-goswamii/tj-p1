@@ -1,0 +1,253 @@
+.Margincal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: max-content;
+    padding: 2rem 0rem;
+
+}
+
+.Margincal .card1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.Margincal .card1 .text {
+    width: 50%;
+    padding-top: 5rem;
+    height: fit-content;
+
+}
+
+.Margincal .card1 .text h3 {
+    margin-left: 12rem;
+    font-size: 4rem;
+}
+
+.Margincal .card1 .text p {
+    text-align: start;
+    margin-left: 12rem;
+    width: 60%;
+    font-size: 3rem;
+}
+
+.Margincal .card1 .photo {
+    width: 50%;
+    height: fit-content;
+
+}
+
+.Margincal .card2 {
+    width: 100%;
+    
+    background-color: #FFF6EA;
+    padding: 2rem 0rem;
+
+}
+
+.Margincal .card2 .card {
+    width: 90%;
+    height: 10rem;
+    padding: 0rem 2rem;
+    margin-left: 5rem;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0.5rem;
+}
+
+.Margincal .card2 .card img {
+    width: 0.4rem;
+    height: 8rem;
+}
+
+.Margincal .card2 .card .crd {
+    width: 20%;
+    border-radius: 1.5rem;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+
+.Margincal .card2 .card .crd:hover {
+    background-color: #103E60;
+    color: #FFFFFF;
+}
+
+.Margincal .card2 .card .crd h4 {
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+.Margincal .card2 table{
+    width: 80%;
+    margin-top: 5rem;
+    margin-left: 15rem;
+   
+}
+
+.Margincal .card2 th{
+    background-color: #ffffff;
+}
+
+.Margincal .card2 table td{
+    background-color: #FFBE9D;
+    font-size: 1.5rem;
+    padding: 2rem 0.5rem;
+}
+
+.Margincal .card2 table,
+th,
+td {
+    font-size: 1.8rem;
+    padding: 2rem 3rem;
+    border: 0.1rem solid black;
+    border-collapse: collapse;
+
+}
+
+.Margincal .card3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    text-align: center;
+    background-color: #FFF6EA;
+    column-gap: 0;
+}
+
+.Margincal .card3 h2{
+    text-align: center;
+    width: 50rem;
+    font-size: 5rem;
+}
+
+.Margincal .card3 h5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 1rem;
+    width: 30rem;
+    height: 5rem;
+    background-color: #103E60;
+    color: #FFFFFF;
+    font-size: 3rem;
+}
+
+.Margincal p img{
+    width:  10rem;
+    height: 10rem;
+    position: absolute;
+    top: 175rem;
+    left: 15rem;
+}
+.Margincal h6 img{
+    width:  10rem;
+    height: 10rem;
+    position: absolute;
+    top: 195rem;
+    right: 25rem;
+}
+
+@media only screen and (min-device-width:320px) and (max-device-width:480px){
+    .Margincal{
+        width: 100vw;
+        
+    }
+.Margincal .card1{
+    width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        
+      
+    }
+    .text{
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90% !important;
+    }
+    .photo{
+        width: 100vw;
+    }
+    .photo img{
+        max-width: 100vw !important;
+        width: 100vw;
+        object-fit: cover;
+    }
+    .card2 table{
+        margin-left: 0 !important;
+    }
+    .card2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        margin-left: 0 !important;
+    }
+}
+
+@media only screen and (min-device-width:480px) and (max-device-width:768px){
+    .Margincal{
+        width: 100vw;
+        
+    }
+.Margincal .card1{
+    width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+      
+    }
+    .text{
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90% !important;
+    }
+    .Margincal .card1 .photo{
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .photo img{
+        max-width: 100vw !important;
+        width: 80vw;
+        object-fit: cover;
+    }
+    .card2 table{
+        margin-left: 0 !important;
+    }
+    .card2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        margin-left: 0 !important;
+    }
+}
+
+@media only screen and (min-device-width:768px) and (max-device-width:1244px){
+.Margincal .card1{
+    align-items: center;
+}
+    .Margincal .card1 .text{
+    width: 40%;
+}
+.Margincal .card1 .photo img{
+    max-width: 100%;
+}
+}

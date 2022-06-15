@@ -1,0 +1,320 @@
+.services-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagee{
+    background: url('/public/images/Delivery-rafiki\ 1.svg') !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% 200% !important;
+}
+.apply-button{
+    font-size: 3.5rem;
+    font-weight: 600;
+    padding:2.2rem 9rem;
+    background: #C53F3F;
+    color: #ffffff;
+    border: none;
+    border-radius: 1rem;
+    margin-top: 9rem;
+
+}
+.services-container h1{
+    margin-top: 8rem;
+    font-size: 5rem;
+    font-weight: 600;
+    margin-bottom: 4.4rem;
+}
+.row-card {
+    display: flex;
+    align-items: center !important;
+}
+.row-card h1{
+    margin:0 !important;
+    width: 100% !important;
+}
+.openmodal{
+    width: 80vw;
+
+}
+.openmodal p{
+    font-size: 4.5rem;
+    font-weight: 500;
+    width: 65%;
+    text-align: center;
+    height: fit-content;
+}
+.openmodal img:first-child{
+    position: relative;
+    top:2vh !important;
+    left:-40%;
+}
+.openmodal img:last-child{
+    position: relative;
+    bottom:0vh !important;
+    left:30vw;
+    
+    
+  
+}
+.pension-container{
+    width: 50%;
+    border: 1px solid black;
+    background: #37474F;
+    border-radius: 8rem;
+    margin-top: 10rem;
+}
+.pension-container .pension-content{
+    height: 100%;
+    width: 80%;
+    border: 1px solid black;
+    background: #ffffff;
+    border-radius: 8rem;
+    display: flex;
+    padding: 8rem 0;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.pension-content img{
+    position: relative;
+    left:-3vw;
+}
+.pension-content p{
+    font-size: 2.8rem;
+    line-height: 1.8;
+    
+}
+.pension-content .pension-right{
+    padding-left: 2rem;
+}
+.pension-right h1{
+    margin-top: 0;
+}
+.pension-right button{
+    padding: 2rem 8rem;
+    font-size: 3.5rem;
+    color: #ffffff;
+    background: #37474F;
+    border-radius: 1rem;
+    margin-top: 2rem;
+}
+.bond-container{
+    width:60%;
+    box-shadow: -15px -15px 20px rgba(197, 63, 63, 0.3), 15px 15px 20px rgba(0, 0, 0, 0.25);
+border-radius: 50px;
+
+}
+.bond-container .is-bond{
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 4.6rem 0 2.6rem 0;
+    padding:0 10rem;
+}
+.bond-container h3{
+    font-size: 3rem;
+    font-weight: 500;
+    padding:0 10rem;
+}
+.bond-first{
+    display: flex;
+    padding: 0 10rem;
+    justify-content: space-around;
+    gap:10rem;
+}
+.bond-first img{
+    position: relative;
+    top:-5rem;
+}
+.bond-first p{
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 1.8;
+
+}
+.bond-text{
+    font-size: 5rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 6.6rem 0 4.6rem 0;
+}
+.services-container .bond-title{
+    margin:11.3rem 0;
+}
+
+@media only screen and (min-device-width:320px) and (max-device-width:480px){
+    .pension-container{
+        width: 90vw;
+    }
+    .pension-content{
+        flex-direction: column;
+        width: 90% !important;
+
+    }
+    
+    .pension-content img{
+        width: 70%;
+        left:50%;
+        transform: translateX(-50%); 
+        top:-15rem
+  }
+    .bond-container{
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center !important;
+    }
+    .bond-first{
+        gap:5rem;
+        width: 100%;
+        flex-direction: column;
+    }
+    .column-container img{
+        height: 8rem;
+        width: 8rem;
+    }
+    .column-container p{
+        width: 85%;
+    }
+    .row-card {
+        justify-content: center;
+        padding: 0 5rem;
+        align-items: center !important;
+    }
+    .row-card h1{
+        font-size: 4rem;
+        position: relative;
+        top:50%;
+        transform: translateY(-50%);
+        
+    }
+    .row-card img{
+        height: 5rem;
+        width: 5rem;
+        
+    }
+}
+@media only screen and (min-device-width:480px) and (max-device-width:768px){
+    .pension-container{
+        width: 90vw;
+    }
+    .pension-content{
+        flex-direction: column;
+        width: 90% !important;
+
+    }
+    
+    .pension-content img{
+        width: 70%;
+        left:50%;
+        transform: translateX(-50%); 
+        top:-15rem
+  }
+    .bond-container{
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center !important;
+    }
+    .bond-first{
+        gap:5rem;
+        width: 100%;
+        flex-direction: column;
+    }
+    .column-container img{
+        height: 8rem;
+        width: 8rem;
+    }
+    .column-container p{
+        width: 85%;
+    }
+    .row-card {
+        justify-content: center;
+        padding: 0 5rem;
+        align-items: center !important;
+    }
+    .row-card h1{
+        font-size: 4rem;
+        position: relative;
+        top:50%;
+        transform: translateY(-50%);
+        
+    }
+    .row-card img{
+        height: 5rem;
+        width: 5rem;
+        
+    }
+}
+@media only screen and (min-device-width:768px) and (max-device-width:1244px){
+    .pension-container{
+        width: 90vw;
+    }
+    .pension-content{
+        
+        width: 90% !important;
+
+    }
+    
+    .pension-content img{
+        width: 70%;
+        left:0;
+        height: 40vh;
+       
+        
+  }
+    .bond-container{
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center !important;
+    }
+    .bond-first{
+        gap:5rem;
+        width: 100%;
+        
+       
+    }
+    .bond-first img{
+        width: 50%;
+        top:0
+    }
+}
+@media only screen and (min-device-width:1244px) and (max-device-width:2244px){
+    .pension-container{
+        width: 70vw;
+    }
+    .pension-content{
+        gap:10rem;
+        width: 90% !important;
+
+    }
+    .pension-right{
+        
+    }
+    
+    .pension-content img{
+        width: 70%;
+        left:0;
+       
+        
+  }
+    .bond-container{
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center !important;
+    }
+    .bond-first{
+        gap:5rem;
+        width: 100%;
+        
+       
+    }
+    .bond-first img{
+        width: 50%;
+        top:0
+    }
+}
+

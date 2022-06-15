@@ -1,0 +1,109 @@
+.depository_top{
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.depository_top_txt{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Inter', sans-serif;
+    height: 25rem;
+}
+.depository_top_txt > h1{
+    font-weight: 500;
+    font-size: 4rem;
+}
+.depository_top_txt > p{
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+.depository_top_img > img{
+
+    width: 50rem;
+
+}
+
+/* .depository_page */
+
+.depository_page_data_p1{
+     width: 18%;
+     display: flex;
+     flex-direction: column;
+     height: 10rem;
+     justify-content: space-around;
+ }
+.depository_page_data_p2{
+    display: flex;
+    flex-direction: column;
+    height: 10rem;
+    justify-content: space-around;
+    width: 18%;
+}
+.depository_page_data_p3{
+    display: flex;
+    flex-direction: column;
+    height: 10rem;
+    justify-content: space-around;
+   width: 18%;
+}
+
+.depository_page_data{
+    width: 80vw;
+    margin-left: auto;
+    display: flex;
+    padding: 4rem 0rem 9rem 0rem;
+    font-family: 'Inter', sans-serif;
+    justify-content: space-around;
+    margin-right: auto;
+
+}
+
+.depository_page_data_comps{
+    display: flex;
+    justify-content: space-between;
+}
+
+.depository_page_data_comps > h3{
+    font-size: 2.2rem;
+
+}
+.depository_page_data_comps > p{
+    font-size: 1.6rem;
+}
+
+
+
+/* what_is_depository */
+
+.what_is_depository{
+    width: 80vw;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+}
+.what_is_depository_part1_heading{
+    width: 100%;
+    background-color: #103E60;
+}
+.what_is_depository_part1_heading > h1{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    padding: 3rem;
+    font-weight: 400;
+    font-size: 4rem;
+}
+.what_is_depository_part1_heading_des{
+    padding: 5rem 0rem 5rem 0rem;
+}
+.what_is_depository_part1_heading_des > p{
+    text-align: left;
+    font-size: 2.5rem;
+    font-family: 'Inter', sans-serif;
+
+}

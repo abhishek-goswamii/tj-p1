@@ -1,0 +1,130 @@
+.trading-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100vw;
+    height: auto;
+}
+.trading-container h1{
+    font-size:5rem;
+    font-weight: 600;
+    margin-bottom: 5rem;
+}
+.row-container{
+    width: 100%;
+    display: flex !important;
+    gap:10rem
+    
+
+    
+}
+.main-img{
+    position: relative;
+    z-index:1
+}
+
+
+.imagee{
+        background: green !important;
+        background: url('/public/images/Bitcoin\ P2P-pana\ 1.svg') !important;
+        background-repeat: no-repeat !important;
+        background-size: 100% 200%;
+      
+  }
+
+.trading-mid-section{
+      margin-top: 10rem;
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 7.7rem;
+      
+}
+  .trading-mid-section img{
+      width: 100%;
+      margin-bottom: 8.6rem;
+  }
+  .trading-mid-section .orange-heading{
+      width: 100%;
+      height: 9rem;
+      background: #DF6951;
+      text-align: center;
+      font-size: 4rem;
+      font-weight: 700;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+  } 
+  .trading-mid-section p{
+      font-size: 4rem;
+      width: 100%;
+      line-height: 1.8;
+      
+
+  }
+  .fao-container{
+      width: 90%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 21rem;
+      border-radius: 436px 0px 0 436px;
+      background: #455A64;
+      transform: matrix();
+      gap:1px !important;
+      padding: 0 20rem;
+      margin-bottom: 11rem;
+  }
+  .fao-container img{
+     width: 35%;
+  }
+  .fao-container div{
+      width: 50%;
+      color: #ffffff;
+  }
+  .fao-container div h1{
+      font-size: 6rem;
+      font-weight: 500;
+  }
+  .fao-container div p1{
+      font-size: 4.5rem;
+      font-weight: 500;
+      line-height:1.8;
+  }
+
+  @media only screen and (min-device-width:320px) and (max-device-width:480px){
+    .fao-container{
+        border-radius: 436px 436px 0px 0;
+        flex-direction: column;
+        padding: 0;
+       
+    }
+    .fao-container div{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .fao-container div p1{
+        padding: 0 2rem;
+        text-align: center;
+    }
+  }
+  @media only screen and (min-device-width:480px) and (max-device-width:1244px){
+    .fao-container div{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+  }
+  .fao-container {
+    padding: 0;
+  }
+}

@@ -1,0 +1,132 @@
+.payment-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100vw;
+    height: auto;
+    gap:15rem;
+}
+.payment-container h1{
+    margin: 10rem 0 0 0;
+    font-size: 5rem;
+    font-weight: 500;
+}
+.box-1{
+    width: 90%;
+    
+    
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+}
+.upi-text{
+    width: 100%;
+    height: 10vh;
+    background: #3F3D56;
+    color: #ffffff;
+    font-size: 4.5rem;
+    display: flex;
+    align-items: center;
+    padding-left: 14.6rem;
+    border-radius: 20px 20px 0px 0px;
+}
+.icons{
+    padding: 3.6rem 14.6rem !important;
+    display: flex;
+    justify-content: space-between;
+    padding: 3.6rem 0;
+}
+.icons span{
+    display: block;
+    text-align: center;
+    font-size: 3.5rem;
+    margin-top: 3.6rem;
+    font-weight: 500;
+}
+.add{
+    margin-top: 10.5rem;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 12rem;
+    margin-bottom: 7.4rem;
+    align-items: center;
+}
+.add h2{
+    font-size: 3.5rem;
+    font-weight: 500;
+
+}
+.wallets{
+    width: 50% !important;
+}
+.debit-card{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 65rem;
+    height: 40.9rem;
+    background:linear-gradient(180deg, #3F3D56 0%, #C53F3F 100%);
+    border-radius: 20px;
+    margin: 17.2rem 0 7.2rem 0;
+    padding:7rem !important;
+    display: flex;
+    flex-direction: column;
+   gap:5rem
+}
+.debit-card input{
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #A6A6A6;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #A6A6A6;
+}
+.debit-card p{
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #A6A6A6;
+}
+.black-cards{
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+    padding-bottom: 4rem;
+}
+.checkbox{
+    font-size: 2.5rem;
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 4.1rem;
+    align-items: center;
+    font-weight: 500;
+}
+.checkbox input{
+    height: 3rem;
+    width: 3rem;
+    background: black !important;
+}
+.box-1 button{
+    font-size: 4rem;
+    font-weight: 500;
+    width: 90%;
+    padding:2.6rem 0;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #949494;
+    border-radius: 10px;
+    margin: 6rem 0;
+    border: none;
+}
+.net-box{
+    margin-bottom: 10vh;
+}
+.top-box{
+    margin-top: 0 !important;
+}
+.box-1 img{
+    cursor: pointer;
+}

@@ -1,0 +1,441 @@
+.footer-container{
+    position: relative;
+   
+    width: 100vw;
+   margin-top: 10rem;
+  
+  
+   
+    
+   
+   
+}
+.footer-container img:first-child{
+    position: absolute;
+
+    max-width: 100vw;
+    height: 90vh;
+    margin-top: 5rem;
+    width: 100vw;
+
+}
+.footer-container img:nth-child(2){
+    position: absolute;
+    top:0;
+    left:0;
+    max-width: 100vw;
+}
+.footer-container img:nth-child(3){
+    position: absolute;
+    top:0;
+    height: 15rem;z-index: -100;
+    max-width: 100vw;
+    
+}
+.footer-container img:nth-child(4){
+    position: absolute;
+    width: 100%;
+   
+    right: 0;
+    z-index: -100;
+    max-width: 100vw;
+   
+   
+}
+.footer-container h1{
+    position: absolute;
+    font-size: 10rem;
+    z-index: 100;
+}
+.footer{
+    position: relative;
+    margin-top: 25rem;
+   
+    height: 50rem;
+    width:90vw;
+    z-index: 10000000;
+    left:50%;
+    transform: translateX(-50%);
+   
+    
+}
+.footer .top-section{
+    width: 100%;
+    display: flex !important;
+    gap:5rem;
+    margin-bottom: 6.6rem;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.footer .top-section ul{
+    position: relative;
+    z-index: 10000;
+   display: flex;
+   flex-wrap: wrap;
+  
+  list-style: none;
+ 
+    
+}
+.footer .top-section ul li{
+    position: relative;
+    z-index: 10000;
+    font-size: 3rem;
+    font-weight: 600;
+    padding-left: 2.5rem;
+    color:#ffffff
+   
+}
+.footer .top-section ul li::after{
+    content: "|";
+    position: absolute;
+    color: #ffffff;
+
+   
+    
+    left:0.5rem;
+    
+   
+
+}
+.bottom-section{
+    display: flex;
+ justify-content: center;
+    width: 90vw;
+    
+   
+}
+.bottom-section h2{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 1.4;
+    margin-bottom: 1.5rem;
+
+}
+
+.bottom-section h1{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 3rem;
+}
+.bottom-section p{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 3rem;
+    
+}
+.social-icons{
+    position: absolute;
+    right: 10rem;
+    top:-12rem;
+    flex-wrap: nowrap;
+    
+}
+.social-icons img{
+    padding: 0 2rem;
+}
+.first-col .second-col .third-col .fourth-col{
+    height: fit-content;
+}
+@media only screen and (min-device-width:320px) and (max-device-width:480px){
+    .footer-container img:first-child{
+        position: absolute;
+    
+        max-width: 100vw;
+        height: 90vh;
+       
+        width: 100vw;
+        object-fit: cover;
+       
+    
+    }
+    .bottom-section{
+        width: 95vw;
+    }
+    
+    .footer-container img:nth-child(2){
+        position: absolute;
+        top:0;
+        left:0;
+       width: 100vw;
+       height: 100vh;
+       overflow: hidden;
+       max-width: 100vw;
+       object-fit: cover;
+     
+
+    }
+    .footer-container img:nth-child(3){
+        position: absolute;
+        top:0;
+        height: 15rem;z-index: -100;
+        max-width: 100vw;
+        object-fit: cover;
+        
+    }
+    .footer-container img:nth-child(4){
+        position: absolute;
+        width: 100%;
+       
+        right: 0;
+        z-index: -100;
+        max-width: 100vw;
+        object-fit: cover;
+       
+       
+    }
+  
+    .social-icons{
+        width: 100vw;
+        display: flex;
+        justify-content: space-around;
+        
+        left: 50%;
+        transform: translateX(-50%);
+       
+       
+    }
+    .social-icons img{
+        position: relative;
+        transform: scale(0.7);
+        
+       
+    }
+    .top-section{
+        margin-top: 10rem;
+    }
+    .top-section img{
+        height: 15rem;
+        width: 10rem;
+    }
+    .footer .top-section ul li{
+        position: relative;
+        z-index: 10000;
+        font-size: 2.5rem;
+        font-weight: 600;
+        padding-left: 2.5rem;
+        color:#ffffff
+       
+    }
+    .bottom-section{
+        flex-direction: column;
+    }
+    .bottom-section h1{
+        font-size: 4.5rem;
+        font-weight: 600;
+        color: #ffffff;
+        margin-bottom: 3rem;
+    }
+    .bottom-section p{
+        font-size: 2.5rem;
+        font-weight: 400;
+        color: #ffffff;
+        margin-bottom: 1rem;
+        
+    }
+    .bottom-section h2{
+        font-size: 3rem;
+        font-weight: 600;
+        color: #ffffff;
+        line-height: 1.4;
+        margin-bottom: 0rem;
+    
+    }
+    .first-col,.second-col,.third-col,.fourth-col{
+        height: fit-content;
+        margin:2rem 0;
+    }
+}
+
+@media only screen and (min-device-width:480px) and (max-device-width:768px){
+    .footer-container img:first-child{
+        position: absolute;
+    
+        max-width: 100vw;
+        height: 50vh;
+       
+        width: 100vw;
+        object-fit: cover;
+       
+    
+    }
+    .bottom-section{
+        width: 95vw;
+        flex-direction: column;
+    }
+    
+    .footer-container img:nth-child(2){
+        position: absolute;
+        top:0;
+        left:0;
+       width: 100vw;
+       height: 120vh;
+       overflow: hidden;
+       max-width: 100vw;
+       object-fit: cover;
+     
+
+    }
+    .footer-container img:nth-child(3){
+        position: absolute;
+        top:0;
+        height: 15rem;z-index: -100;
+        max-width: 100vw;
+        object-fit: cover;
+        
+    }
+    .footer-container img:nth-child(4){
+        position: absolute;
+        width: 100%;
+       
+        right: 0;
+        z-index: -100;
+        max-width: 100vw;
+        object-fit: cover;
+       
+       
+    }
+  
+    .social-icons{
+        width: 100vw;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 10rem;
+        left: 50%;
+        transform: translateX(-50%);
+       
+       
+    }
+    .social-icons img{
+        position: relative;
+        transform: scale(0.8);
+      
+        
+       
+    }
+    .top-section{
+        margin-top: 18rem;
+    }
+    .top-section img{
+        height: 30rem;
+        width: 30rem;
+    }
+    .footer .top-section ul li{
+        position: relative;
+        z-index: 10000;
+        font-size: 2.5rem;
+        font-weight: 600;
+        padding-left: 3rem;
+        color:#ffffff
+       
+    }
+    .bottom-section h1{
+        font-size: 5rem;
+        font-weight: 600;
+        color: #ffffff;
+        margin-bottom: 3rem;
+    }
+    .bottom-section p{
+        font-size: 3rem;
+        font-weight: 400;
+        color: #ffffff;
+        margin-bottom: 3rem;
+        
+    }
+    .bottom-section h2{
+        font-size: 3rem;
+        font-weight: 600;
+        color: #ffffff;
+        line-height: 1.4;
+        margin-bottom: 0rem;
+    
+    }
+}
+@media only screen and (min-device-width:768px) and (max-device-width:1244px){
+    .footer-container img:first-child{
+        position: absolute;
+    
+        max-width: 100vw;
+        height: 50vh;
+       
+        width: 100vw;
+        object-fit: cover;
+       
+    
+    }
+    .bottom-section{
+        width: 95vw;
+    }
+    
+    .footer-container img:nth-child(2){
+        position: absolute;
+        top:0;
+        left:0;
+       width: 100vw;
+       height: 80vh;
+       overflow: hidden;
+       max-width: 100vw;
+       object-fit: cover;
+     
+
+    }
+    .footer-container img:nth-child(3){
+        position: absolute;
+        top:0;
+        height: 15rem;z-index: -100;
+        max-width: 100vw;
+        object-fit: cover;
+        
+    }
+    .footer-container img:nth-child(4){
+        position: absolute;
+        width: 100%;
+       
+        right: 0;
+        z-index: -100;
+        max-width: 100vw;
+        object-fit: cover;
+       
+       
+    }
+  
+    .social-icons{
+        width: 100vw;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 10rem;
+        left: 50%;
+        transform: translateX(-50%);
+       
+       
+    }
+    .social-icons img{
+        position: relative;
+        transform: scale(0.9);
+      
+        
+       
+    }
+    .top-section{
+        margin-top: 18rem;
+    }
+    .top-section img{
+        height: 30rem;
+        width: 30rem;
+    }
+    .footer .top-section ul li{
+        position: relative;
+        z-index: 10000;
+        font-size: 2.5rem;
+        font-weight: 600;
+        padding-left: 3rem;
+        color:#ffffff
+       
+    }
+}

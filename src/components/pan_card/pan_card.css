@@ -1,0 +1,52 @@
+
+.pan_card_bottom{
+    
+    height: 55rem;
+    width: 80vw;
+    background-color: #FFF6EA;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.pan_card_bottom_d1{
+    width: 20%;
+}
+.pan_card_bottom_d1 > img{
+    margin-top: 20rem;
+    margin-left: 3rem;
+}
+
+.pan_card_bottom_d3{
+    width: 20%;   
+}
+.pan_card_bottom_d3 > img{
+    margin-top: 40rem;
+
+
+}
+.pan_card_bottom_d2{
+    display: flex;
+    margin-top: 11rem;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 30rem;
+    font-family: 'Inter', sans-serif;
+    width: 80%;
+}
+.pan_card_bottom_d2 > button {
+    justify-content: center;
+    padding: 2rem 11rem 2rem 11rem;
+    font-size: 4rem;
+    background-color: #103E60;
+    color: white;
+    border-radius: 1rem;
+}
+.pan_card_bottom_d2 > h1{
+    text-align: end;
+    font-size: 5rem;
+}
+.pancard_span{
+    font-weight: 600;
+}

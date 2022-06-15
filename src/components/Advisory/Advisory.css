@@ -1,0 +1,119 @@
+.Advisory {
+    width: 113rem;
+    height: max-content;
+    padding: 2rem 5rem;
+}
+
+.Advisory .card1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.Advisory .card1 .text {
+    width: 50%;
+    padding-top: 5rem;
+    height: fit-content;
+
+}
+
+.Advisory .card1 .text h3 {
+    margin-left: 10rem;
+    font-size: 3rem;
+}
+
+.Advisory .card1 .text p {
+    text-align: center;
+    margin-left: 12rem;
+    width: 28rem;
+    font-size: 2rem;
+}
+
+.Advisory .card1 .photo {
+    width: 50%;
+    height: fit-content;
+
+}
+
+.Advisory .card2 .card {
+    width: 90%;
+    height: 10rem;
+    padding: 0rem 2rem;
+    margin-left: 5rem;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0rem;
+
+    border-radius: 0.5rem;
+}
+
+.Advisory .card2 h1{
+    margin-left: 8rem;
+    font-size: 4rem;
+    color: #C53F3F;
+
+}
+
+.Advisory .card2 .card .crd {
+
+    width: 40%;
+    height: 15rem;
+    border-radius: 1.5rem;
+    padding: 1rem 2rem;
+
+}
+
+.Advisory .card2 .card .crd:hover {
+    background-color: #103E60;
+    color: #FFFFFF;
+}
+
+.Advisory .card2 .card .crd p {
+
+    width: 25rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.Advisory .card2 h2 img {
+    position: relative;
+    bottom: 5rem;
+    left: 7rem;
+    width: 116rem;
+    height: 1rem;
+}
+
+.Advisory .card2 h6 img {
+    position: relative;
+    bottom: 8.5rem;
+    left: 20rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+.Advisory .card2 h6:hover {
+    background-color: #103E60;
+    color: #FFFFFF;
+}
+
+.Advisory .card3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Advisory .card3 h2 {
+    width: 60rem;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.Advisory .card3 p {
+    text-align: justify;
+    font-size: 2.5rem;
+    font-weight: bold;
+}

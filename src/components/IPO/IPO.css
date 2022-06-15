@@ -1,0 +1,199 @@
+.IPO {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: max-content;
+    padding: 2rem 0rem;
+
+}
+
+.IPO .card1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.IPO .card1 .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding-top: 5rem;
+    height: fit-content;
+
+}
+
+.IPO .card1 .text h3 {
+  
+    font-size: 4rem;
+}
+
+.IPO .card1 .text p {
+    text-align: start;
+    
+    width: 95%;
+    font-size: 3rem;
+}
+
+.IPO .card1 .text button {
+    width: 30rem;
+    padding: 1rem 1rem;
+    border: none;
+    background-color: #C53F3F;
+    color: #FFFFFF;
+    border-radius: 1rem;
+    font-size: 2rem;
+}
+
+.IPO .card1 .photo {
+    width: 50%;
+    height: fit-content;
+
+}
+
+.IPO .card2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.IPO .card2 .crd1 {
+    height: 5rem;
+}
+
+.IPO .card2 .crd1 img {
+    width: 60%;
+    position: relative;
+    top: -2rem;
+    right: 14rem;
+
+}
+
+.IPO .card2 .crd2 {
+    padding: 1rem 2rem;
+    width: 80%;
+    height: max-content;
+    box-shadow: -15px -15px 20px rgba(197, 63, 63, 0.3), 15px 15px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 2rem;
+}
+
+.IPO .card2 .crd2 h3 {
+    font-size: 3rem;
+    margin-left: 75rem;
+}
+
+.IPO .card2 .crd2 p {
+    font-size: 2rem;
+    margin-left: 51rem;
+}
+
+.IPO .card2 .crd2 h6 {
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.IPO .card3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.IPO .card3 h2 {
+    width: 100%;
+    background-color: #103E60;
+    color: #FFFFFF;
+    font-size: 4rem;
+    text-align: center;
+    padding: 1rem 1rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+.IPO .card3 table{
+    border-collapse: collapse;
+    padding: 0rem;
+}
+
+.IPO .card3 table td{
+    background-color: #FFBE9D;
+    font-size: 1.5rem;
+    padding: 2rem 0.5rem;
+
+}
+@media only screen and (min-device-width:320px) and (max-device-width:480px){
+    .IPO{
+        width: 100vw;
+        
+    }
+.IPO .card1{
+    width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+      
+    }
+    .text{
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90% !important;
+    }
+    .IPO .card1 .photo{
+        width: 100vw;
+    }
+    .photo img{
+        max-width: 100% !important;
+        width: 100vw;
+        object-fit: cover;
+    }
+}
+
+@media only screen and (min-device-width:480px) and (max-device-width:768px){
+    .IPO{
+        width: 100vw;
+        
+    }
+.IPO .card1{
+    width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+      
+    }
+    .text{
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90% !important;
+    }
+    .IPO .card1 .photo{
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .photo img{
+        max-width: 100vw !important;
+        width: 80vw;
+        object-fit: cover;
+    }
+}
+@media only screen and (min-device-width:768px) and (max-device-width:1244px){
+    .IPO .card1{
+        align-items: center;
+    }
+        .IPO .card1 .text{
+        width: 40%;
+    }
+    .IPO .card1 .photo img{
+        max-width: 100%;
+    }
+}

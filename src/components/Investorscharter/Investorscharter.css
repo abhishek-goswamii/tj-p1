@@ -1,0 +1,168 @@
+.Investorscharter {
+    width: 100vw;
+    height: max-content;
+   
+}
+
+.Investorscharter .card1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: fit-content;
+    justify-content: center;
+}
+
+.Investorscharter .card1 .text {
+    width: 50%;
+   align-items: center;
+    height: fit-content;
+    justify-content: center;
+
+}
+
+.Investorscharter .card1 .text h3 {
+    margin-left: 10rem;
+    font-size: 3rem;
+}
+
+.Investorscharter .card1 .text p {
+    text-align: justify;
+    margin-left: 12rem;
+    width: 40%;
+    font-size: 2rem;
+}
+
+.Investorscharter .card1 .photo {
+    width: 50%;
+    height: fit-content;
+
+}
+
+.Investorscharter .card2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.Investorscharter .card2 h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ 
+    width: 93%;
+    height: 10rem;
+    font-size: 3.5rem;
+    background-color: #103E60;
+    color: #ffffff;
+    text-align: center;
+
+}
+
+.Investorscharter .card2 table {
+   
+}
+
+.Investorscharter .card2 table,
+th,
+td {
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+    border: 0.1rem solid black;
+    border-collapse: collapse;
+}
+
+.Investorscharter .card2 table td {
+    background-color: #FFBE9D;
+    font-size: 1.5rem;
+    padding: 2rem 0.5rem;
+}
+@media only screen and (min-device-width:320px) and (max-device-width:480px){
+    .Investorscharter{
+        padding: 0;
+    }
+    .Investorscharter .card1{
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+    }
+    .Investorscharter .card1 .photo{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .Investorscharter .card1 .text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Investorscharter .card1 .text h3{
+      
+        margin: 0;
+    }
+    .Investorscharter .card1 .text p{
+        margin: 0;
+    }
+    .Investorscharter .card2 h2{
+        margin: 0;
+    }
+}
+@media only screen and (min-device-width:480px) and (max-device-width:768px){
+    .Investorscharter{
+        padding: 0;
+    }
+    .Investorscharter .card1{
+        flex-direction: column;
+    }
+    .Investorscharter .card1 .photo{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .Investorscharter .card1 .photo img{
+        object-fit: contain;
+        max-width: 100%;;
+       
+        
+    }
+    .Investorscharter .card1 .text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .Investorscharter .card1 .text h3{
+      
+        margin: 0;
+    }
+    .Investorscharter .card1 .text p{
+        margin: 0;
+    }
+    .Investorscharter .card1 .photo{
+        width: 100%;
+    }
+    .Investorscharter .card1 .photo img{
+        max-width: 90%;
+    }
+    .Investorscharter .card2 table{
+        margin: 0;
+    }
+    .Investorscharter .card2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Investorscharter .card2 h2{
+        margin:0;
+    }
+}
+@media only screen and (min-device-width:768px) and (max-device-width:1244px){
+    .Investorscharter .card1 .photo img{
+        max-width: 70%;
+    }
+}

@@ -1,0 +1,186 @@
+.Aboutus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 134rem;
+    height: max-content;
+    padding: 2rem 0rem;
+    font-family: 'Inter';
+
+}
+
+.Aboutus h2 {
+    font-size: 4rem;
+}
+
+.Aboutus .card1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.Aboutus .card1 .text {
+    width: 40%;
+    padding-top: 5rem;
+    height: fit-content;
+
+}
+
+.Aboutus .card1 .text h3 {
+    width: 25rem;
+    margin-left: 12rem;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.Aboutus .card1 .text p {
+    text-align: center;
+    margin-left: 8rem;
+    width: 60%;
+    font-size: 3rem;
+}
+
+.Aboutus .card1 .photo {
+    width: 60%;
+    height: fit-content;
+
+
+}
+
+.Aboutus .card1 .photo img {
+    margin-left: 5rem;
+
+}
+
+.Aboutus .card2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    padding: 2rem 0rem;
+
+}
+
+
+.Aboutus .card2 p {
+    font-size: 2rem;
+    padding: 0rem 1rem;
+    text-align: justify;
+
+}
+
+.Aboutus .card2 .photo img {
+    width: 25rem;
+    height: 25rem;
+}
+
+.Aboutus .card2 .text {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    padding: 2rem 2rem;
+}
+
+.Aboutus .card3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF6EA;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2rem 0rem;
+
+}
+
+.Aboutus .card3 .row {
+    display: flex;
+    flex-direction: row;
+    gap: 15rem;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+}
+
+.Aboutus .card3 .row .crd {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 3rem;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 2rem;
+}
+
+.Aboutus .card3 .row .crd img {
+    width: 24rem;
+    height: 24rem;
+}
+
+.Aboutus .card3 .row .crd h3 {
+    
+    text-align: center;
+    width: 24rem;
+    font-size: 2rem;
+}
+
+.Aboutus .card4 {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4rem;
+    
+}
+
+.Aboutus .card4 .left {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.Aboutus .card4 .left p {
+    font-size: 2rem;
+}
+
+.Aboutus .card4 .right .row1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.Aboutus .card4 .right .row1 h3 {
+  position: relative;
+  top: 5rem;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 1rem;
+}
+.Aboutus .card4 .right .row1 h4 {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 1rem;
+    margin-left: 5rem;
+  }
+
+.Aboutus .card4 .right .row2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.Aboutus .card4 .right .row2 h5{
+    position: relative;
+    top: 5rem;
+    left: 3rem;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 1rem;
+    
+}
+
+.Aboutus .card4 .right .row2 h6{
+    position: relative;
+    left: 5rem;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 1rem;
+    
+}

@@ -1,0 +1,193 @@
+.News {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: max-content;
+    padding: 2rem 0rem;
+    font-family: 'Inter';
+
+}
+
+.News .card1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.News .card1 .text {
+    width: 50%;
+    padding-top: 5rem;
+    height: fit-content;
+}
+
+.News .card1 .text h3 {
+    width: 30rem;
+    margin-left: 12rem;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.News .card1 .text p {
+    text-align: center;
+    margin-left: 8rem;
+    width: 60%;
+    font-size: 3rem;
+}
+
+.News .card1 .photo {
+    width: 50%;
+    height: fit-content;
+}
+
+.News .card2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2rem 0rem;
+}
+
+.News .card2 h2 {
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    background-color: #455A64;
+    color: #ffffff;
+    width: 80%;
+    font-size: 4rem;
+    text-align: start;
+}
+
+.News .card2 h3 {
+    font-size: 3rem;
+}
+
+.News .card2 p {
+    font-size: 2rem;
+    padding: 0rem 1rem;
+    text-align: justify;
+}
+
+
+.News .card2 .card {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+
+.News .card2 .card .photo img {
+    width: 45rem;
+    height: 25rem;
+}
+
+.News .card2 .card .text {
+    padding: 0rem 2rem;
+}
+
+.News .card3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2rem 0rem;
+
+}
+
+.News .card3 h2 {
+    padding: 3rem 4rem;
+    border-radius: 1rem;
+    background-color: #455A64;
+    color: #ffffff;
+    width: 80%;
+    font-size: 4rem;
+    text-align: start;
+}
+
+.News .card3 table {
+    width: 85%;
+    border: none;
+    text-align: start;
+}
+
+.News .card3 table th {
+    border: none;
+    text-align: start;
+}
+
+.News .card3 table td {
+    border: none;
+}
+
+@media only screen and (min-device-width:320px) and (max-device-width:480px){
+    .News .card1{
+        flex-direction: column;
+        width: 100vw;
+        
+        align-items: center;
+       
+        
+    }
+    .News{
+        max-width: 100vw;
+        overflow-x: hidden;
+
+       
+    }
+    .News .card1 .photo {
+        width: 80%;
+       
+    }
+    .News .card1 .text h3{
+        text-align: center;
+        margin-left: 0;
+        width: 100%;
+    }
+    .News .card1 .text p{
+        margin-left: 0;
+        width: 100%;
+    }
+    .News .card2{
+        width: 90vw;
+    }
+    .News .card2 .photo{
+        width: 100%;
+    }
+    .News .card2 h3,.News .card2 .card{
+        width: 100%;
+    }
+    .News .card2 h2{
+        width: 100%;
+    }
+    .News .card2 .card{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .News .card1 .photo img{
+       width: 100%;
+       object-fit: contain;
+       
+    }
+    .News .card2{
+        max-width: 80vw;
+    }
+    .News .card3{
+        max-width: 80vw;
+    }
+    .News .card2 .photo img{
+        display: flex;
+        align-items: center;
+        align-items: center;
+        position: relative;
+        left:50%;
+        transform: translateX(-50%);
+    }
+    .card .text{
+        width: 100%;
+        padding: 0 !important;
+    }
+}

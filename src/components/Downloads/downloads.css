@@ -1,0 +1,109 @@
+.imagee{
+    min-height:558px;
+    width: 40vw;
+    background: url('/public/images/Firmware-rafiki 1.svg') !important;
+    background-size:100% 200% !important;
+ 
+    background-repeat: no-repeat;
+    
+}
+.leftside-content div h2{
+    width: 70%;
+    margin-top: 6.8rem;
+    
+}
+.leftside-content div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.table div:nth-child(1){
+    width: 80vw;
+    height: 13.2rem;
+    border: 1px solid black;
+    background: #455A64;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 4.8rem;
+}
+.table div:nth-child(1) p{
+    font-size: 4.5rem;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+   
+
+}
+.table div:not(:first-child){
+    width: 80vw;
+    height: 13.5rem;
+    background:#FFF9F1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    font-size: 3.8rem;
+    font-weight: 500;
+    justify-content: space-between;
+    padding: 0 3.33rem;
+    margin-bottom: 5.5rem;
+
+}
+
+@media only screen and (min-device-width:320px) and (max-device-width:480px){
+    .row-container{
+        flex-direction: column-reverse;
+        justify-content: center;
+        width: 100vw;
+    }
+    .imagee{
+        position: relative;
+       
+        padding-right: 10rem;
+        min-width: 100%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: contain;
+        padding-right: 0;
+        
+       
+    }
+    .leftside-content{
+        width: 100% !important;
+    }
+    .table p{
+        font-size: 3rem;
+    }
+    .table img{
+        height: 5rem;
+        width: 5rem;
+    }
+    .leftside-content div h1{
+       
+    }
+    .main-img{
+        width: 100% !important;
+        position: relative;
+        height: 100%!important;
+        left:50%;
+        transform: translateX(-50%);
+        
+        
+    }
+  
+}
+@media only screen and (min-device-width:480px) and (max-device-width:768px){
+    .main-img{
+        width: 100% !important;
+        position: relative;
+        height: 100%!important;
+        left:50%;
+        transform: translateX(-50%);
+        
+        
+    }
+}

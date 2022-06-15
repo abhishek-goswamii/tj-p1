@@ -1,0 +1,292 @@
+.Signup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: max-content;
+    padding: 2rem 0rem;
+    font-family: 'Inter';
+}
+
+.Signup .card1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.Signup .card1 .text {
+    width: 50%;
+    padding: 1rem 2rem;
+    padding-left: 8rem;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(#455A64, #C53F3F33);
+}
+
+.Signup .card1 .photo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Signup .card1 .photo h2 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.Signup .card1 .text .top {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem 0rem;
+    align-items: flex-end;
+    justify-content: center;
+    margin-left: 6rem;
+}
+
+.Signup .card1 .text h6 {
+    font-size: 1.8rem;
+    color: #fff;
+
+}
+
+.Signup .card1 .text h4 button {
+    width: 10rem;
+    height: 3rem;
+    background-color: #fff;
+    border: none;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 0.5rem;
+}
+
+.Signup .card1 .text h3 {
+    font-size: 5rem;
+    color: #fff;
+
+}
+
+.Signup .card1 .text h5 {
+    font-size: 2rem;
+    color: #fff;
+    margin-left: 25rem;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+.Signup .card1 .text form {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.Signup .card1 .text form input {
+    width: 40rem;
+    font-size: 2rem;
+    color: #fff;
+    border-radius: 0.5rem;
+    border: none;
+    height: 3rem;
+}
+
+.Signup .card1 .text form button {
+    width: 40rem;
+    height: 4rem;
+    border-radius: 1rem;
+    background-color: #434D52;
+    color: #fff;
+    border: none;
+}
+
+.Signup .card2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.Signup .card2 h2 {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.Signup .card2 h3 {
+    font-size: 3rem;
+    text-align: start;
+}
+
+.Signup .card2 .icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20rem;
+    margin-top: 0rem;
+}
+
+.Signup .card2 .icons img {
+    width: 15rem;
+    height: 15rem;
+}
+
+.Signup .card2 .icons h3 {
+    font-size: 2rem;
+}
+
+.Signup .card2 .icons .icn h5{
+    height: 5rem;
+}
+
+.Signup .card2 .icons .icn h5 img {
+    width: 15rem;
+    height: 15rem;
+    position: relative;
+    bottom: 21rem;
+    z-index: 2;
+}
+
+.Signup .card2 .box {
+    display: flex;
+    flex-direction: row;
+    gap: 15rem;
+}
+
+.Signup .card2 .checkbox1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.Signup .card2 .checkbox1 h5 {
+    font-size: 2rem;
+}
+
+.Signup .card2 .checkbox1 input {
+    width: 2rem;
+    height: 2rem;
+
+}
+
+
+.Signup .card2 .checkbox1 label {
+    margin-left: 2rem;
+
+}
+
+.Signup .card2 .checkbox2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.Signup .card2 .checkbox2 h5 {
+    font-size: 2rem;
+}
+
+.Signup .card2 .checkbox2 input {
+    width: 2rem;
+    height: 2rem;
+}
+
+
+.Signup .card2 .checkbox2 label {
+    margin-left: 2rem;
+}
+
+.Signup .card2 .checkbox3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+.Signup .card2 .checkbox3 h5 {
+    font-size: 2rem;
+}
+
+.Signup .card2 .checkbox3 input {
+    width: 2rem;
+    height: 2rem;
+}
+
+
+.Signup .card2 .checkbox3 label {
+    margin-left: 2rem;
+}
+
+@media only screen and (min-device-width:320px) and (max-device-width:480px){
+    .Signup{
+        width: 100vw;
+    }
+    .Signup .card1{
+        flex-direction: column;
+    }
+    .Signup .card1{
+        flex-direction: column;
+    }
+    .Signup .card2{
+        width: 100%;
+    }
+    .Signup .card2 .icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 5rem;
+        margin-top: 0rem;
+        padding: 0 !important;
+    }
+    .icons img{
+        transform: scale(0.8);
+    }
+    .box{
+        gap:10rem !important; 
+    }
+    .card2 h3{
+      
+        max-width: 95vw;
+        position: relative;
+       
+        text-align: center !important;
+        
+       
+    }
+    .Signup .card1 .text{
+        padding: 0;
+        align-items: center;
+    }
+    .Signup .card1{
+       
+    }
+}
+@media only screen and (min-device-width:480px) and (max-device-width:768px){
+    .Signup .card1{
+        flex-direction: column;
+        
+    }
+    .Signup .card1 .photo{
+        width: 90%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .Signup .card1 .text{
+        width: 100%;
+    }
+    .Signup .card1 .photo img{
+        width: 80%;
+    }
+    .Signup .card1 .text{
+        padding: 0;
+        align-items: center;
+    }
+}
