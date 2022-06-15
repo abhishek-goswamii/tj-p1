@@ -29,7 +29,9 @@ function App() {
 	return (
 		<div className="App">
 			<Header openModal={openModal} setOpenModal={setOpenModal} />
-			{openModal == true && <Sidebar />}
+			{openModal == true && (
+				<Sidebar openModal={openModal} setOpenModal={setOpenModal} />
+			)}
 			<Routes>
 				<Route
 					exact
