@@ -18,7 +18,10 @@ export class Aboutus extends PureComponent {
     render() {
         return (
             <div className='Aboutus'>
+               
+                
                 <div className="card1">
+                    
 
                     <div className="text">
                         <h3>About Us</h3>
@@ -93,18 +96,20 @@ export class Aboutus extends PureComponent {
                 <div className="card4">
 
                     <div className="left">
-                        <img src={logo} alt="" />
+                        <img className='left-logo' src={logo} alt="" />
                         <p>We "KALPATARU" are the first since our inception
                             and till today Clearing Member of</p>
                     </div>
                     <div className="right">
                         <div className="row1">
-                        <h3><img src={BSE} alt="" /></h3>
-                        <h4><img src={NSE} alt="" /></h4>
+                        <h3><img className='rowimg' src={BSE} alt="" /></h3>
+                        <h4><img  className='rowimg'src={NSE} alt="" /></h4>
                         </div>
-                       <div className="row2">
-                       <h5><img src={MCX} alt="" /></h5>
-                        <h6><img src={CDSL} alt="" /></h6>
+                        <div className="row2">
+                        
+                       
+                       <h5><img className='rowimg' src={MCX} alt="" /></h5>
+                        <h6><img className='rowimgone' src={CDSL} alt="" /></h6>
                        </div>
                    
 

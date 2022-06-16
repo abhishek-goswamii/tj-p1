@@ -15,7 +15,7 @@ export class Applymutual extends PureComponent {
                     <div className="card">
                         <h2>Mutual Funds Profile</h2>
                     </div>
-
+                    <div className='table-details'>
                     <table>
                         <tr>
                             <th>Fund House</th>
@@ -74,9 +74,10 @@ export class Applymutual extends PureComponent {
                             <td></td>
                         </tr>
                     </table>
+                    </div>
                 </div>
                 <br /><br />
-                <p><img src={Ellipse1} alt="" /></p>
+                
 
                 <div className="card3">
 
@@ -84,8 +85,9 @@ export class Applymutual extends PureComponent {
                         were Looking For?</h2>
 
                     <h5>Contact Support</h5>
-                    <br /><br /><br /><br />
+                    
                 </div>
+                <p><img src={Ellipse1} alt="" /></p>
                 <h6><img src={Ellipse2} alt="" /></h6>
             </div>
         )

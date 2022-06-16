@@ -23,6 +23,9 @@ import Investorscharter from "./components/Investorscharter/Investorscharter";
 import SGB from "./components/SGB/SGB";
 import Register from "./components/Register/Register";
 import Signup from "./components/Signup/Signup";
+import Applyipo from "./components/Applyipo/Applyipo";
+import ApplyMutual from "./components/Applymutual/Applymutual";
+import GeneralInsurance from "./components/general insurance/general_insurance";
 
 function App() {
 	const [openModal, setOpenModal] = useState(false);
@@ -65,6 +68,13 @@ function App() {
 				<Route exact path="/register" element={<Register />}></Route>
 				<Route exact path="/login" element={<SGB />}></Route>
 				<Route exact path="/signup" element={<Signup />}></Route>
+				<Route exact path="/apply-ipo" element={<Applyipo />}></Route>
+				<Route exact path="/apply-mutual" element={<ApplyMutual />}></Route>
+				<Route
+					exact
+					path="/general-insurence"
+					element={<GeneralInsurance />}
+				></Route>
 			</Routes>
 			<Footer />
 		</div>

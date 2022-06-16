@@ -1,135 +1,264 @@
 .insurance_top {
-    width: 80vw;
-    margin-top: 6rem;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    align-items: center;
-  }
-  .insurance_top_txt {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    justify-content: space-around;
-    font-family: "Inter", sans-serif;
-    height: 25rem;
-  }
-  .insurance_top_txt > h1 {
+  width: 80vw;
+  margin-top: 6rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+
+.insurance_top_txt {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Inter", sans-serif;
+  height: 25rem;
+}
+
+.insurance_top_txt>h1 {
+  font-weight: 500;
+  font-size: 4rem;
+}
+
+.insurance_top_txt>p {
+  font-weight: 400;
+  font-size: 2.5rem;
+}
+
+.insurance_top_img>img {
+  width: 45rem;
+}
+
+/* .insurance_mid */
+
+.insurance_mid {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  margin-left: auto;
+  font-family: "Inter", sans-serif;
+  margin-right: auto;
+}
+
+.insurance_mid_title {
+  color: white;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  padding: 1rem 2.5rem 1rem 2.5rem;
+  font-weight: 600;
+  font-size: 2rem;
+  background-color: #103e60;
+}
+
+.insurance_mid_performance {
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  padding-top: 2rem;
+  flex-direction: column;
+}
+
+.insurance_mid_performance1>h1 {
+  text-align: start;
+  font-size: 4rem;
+  padding-top: 6rem;
+  padding-bottom: 3.6rem;
+}
+
+.insurance_mid_performance2 {
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+}
+
+.insurance_mid_performance2>div>h3 {
+  font-size: 2.9rem;
+}
+
+.insurance_mid_performance2>div>h2 {
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.insurance_mid_performance2_low {
+  width: 22%;
+  display: flex;
+  align-self: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.insurance_mid_performance2_high {
+  width: 22%;
+  display: flex;
+  align-self: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.insurance_mid_performance2_bar {
+  width: 66%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.insurance_up_triangle_today {
+  position: relative;
+  left: 40%;
+}
+
+.insurance_up_triangle_52w {
+  position: relative;
+  right: 45%;
+}
+
+.insurance_mid_performance2_bar>div {
+  min-height: 1rem;
+  border-radius: 1rem;
+  width: 100%;
+
+  background-color: #c53f3f;
+}
+
+.insurance_mid_performance2_bar>p>img {
+  width: 2.3rem;
+}
+
+.insurance_mid_performance3 {
+  padding-top: 4rem;
+  width: 100%;
+}
+
+.insurance_mid_performance3_child_div h3 {
+  font-weight: 200;
+  font-size: 2rem;
+}
+
+.insurance_mid_performance3_child_div p {
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.insurance_mid_performance3_child {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about_insurance {
+  margin-top: 11rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.about_insurance1 {
+  padding-bottom: 3rem;
+}
+
+.about_insurance1>h1 {
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+.about_insurance2>p {
+  font-size: 2.95rem;
+  font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+/* media  */
+
+@media only screen and (min-device-width : 120px) and (max-device-width : 770px) {
+
+
+  .insurance_top_txt>h1 {
     font-weight: 500;
-    font-size: 4rem;
+    font-size: 6.5rem;
   }
-  .insurance_top_txt > p {
+
+  .insurance_top_txt>p {
     font-weight: 400;
-    font-size: 2.5rem;
-  }
-  .insurance_top_img > img {
-    width: 45rem;
-  }
-  
-  /* .insurance_mid */
-  
-  .insurance_mid {
-    display: flex;
-    flex-direction: column;
-    width: 80vw;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-    margin-left: auto;
-    font-family: "Inter", sans-serif;
-    margin-right: auto;
-  }
-  
-  .insurance_mid_title {
-    color: white;
-    font-family: "Inter", sans-serif;
+    font-size: 3.4rem;
     text-align: center;
-    padding: 1rem 2.5rem 1rem 2.5rem;
-    font-weight: 600;
-    font-size: 2rem;
+    padding-top: 3rem;
+  }
+
+  .insurance_top_img>img {
+    width: 40rem;
+  }
+
+  .insurance_mid_title {
+    margin-top: 3rem;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.2rem;
     background-color: #103e60;
   }
-  
-  .insurance_mid_performance {
-    width: 100%;
-    display: flex;
-    align-self: flex-start;
-    padding-top: 2rem;
-    flex-direction: column;
-  }
-  .insurance_mid_performance1 > h1 {
+
+  .insurance_mid_performance1>h1 {
     text-align: start;
-    font-size: 4rem;
+    font-size: 5.9rem;
     padding-top: 6rem;
     padding-bottom: 3.6rem;
   }
-  .insurance_mid_performance2 {
-    width: 100%;
-    display: flex;
-    align-self: flex-start;
+
+  .insurance_mid_performance2>div>h2 {
+    font-size: 4.1rem;
+    font-weight: 300;
   }
-  .insurance_mid_performance2 > div > h3 {
-    font-size: 2rem;
+
+  .insurance_mid_performance2>div>h3 {
+    font-size: 3.8rem;
   }
-  .insurance_mid_performance2_low {
-    width: 20%;
-    display: flex;
-    align-self: flex-start;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .insurance_mid_performance2_high {
-    width: 20%;
-    display: flex;
-    align-self: flex-start;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .insurance_mid_performance2_bar {
-    width: 170%;
-    display: flex;
-    align-items: center;
-  }
-  .insurance_mid_performance2_bar > div {
-    min-height: 1rem;
-    border-radius: 1rem;
-    width: 100%;
-  
-    background-color: #c53f3f;
-  }
-  .insurance_mid_performance3 {
-    padding-top: 4rem;
-    width: 100%;
-  }
+
   .insurance_mid_performance3_child_div h3 {
     font-weight: 200;
-    font-size: 2rem;
+    font-size: 4.4rem;
   }
+
   .insurance_mid_performance3_child_div p {
     font-weight: 500;
-    font-size: 2rem;
+    font-size: 3.4rem;
   }
+
   .insurance_mid_performance3_child {
-    width: 80%;
-    display: flex;
     justify-content: space-between;
   }
-  .about_insurance {
-    padding-top: 5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+
+  .insurance_mid_performance3 {
+    padding-top: 7rem;
+    width: 100%;
   }
-  .about_insurance1 {
-    padding-bottom: 3rem;
-  }
-  .about_insurance1 > h1 {
-    font-size: 5rem;
-    font-weight: 600;
-  }
-  .about_insurance2 > p {
+
+  .about_insurance2>p {
     font-size: 2.95rem;
-    font-weight: 500;
+    font-weight: 400;
   }
+  .about_insurance2>p {
+    font-size: 3.95rem;
+    font-weight: 400;
+  }
+  .about_insurance1>h1 {
+    font-size: 5.8rem;
+    font-weight: 500;
+}
+
+}

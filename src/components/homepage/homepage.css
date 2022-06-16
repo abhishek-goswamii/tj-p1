@@ -1,4 +1,3 @@
-
 .get_started{
     width: 90vw;
     display: flex;
@@ -7,12 +6,10 @@
 }
 
 .get-started-btn{
-
     display: flex;
-    height: 25rem;
+    height: 35rem;
     justify-content: center;
     width: 50%;
-
 }
 
 .get-started-btn > div > h1{
@@ -68,10 +65,12 @@
 
 /* welcome div */
 
+
 .welcome_kalpataru{
     display: flex;
+    align-items: center;
     width: 85vw;
-    margin-top: -8rem;
+    margin-top: 8rem;
     margin-left: auto;
     margin-right: auto;
 
@@ -90,6 +89,7 @@
 }
 .welcome_kalpataru_des > div > h2{
     margin-bottom: 2.4rem;
+    font-weight: 500;
 }
 
 .welcome_kalpataru_des{
@@ -469,9 +469,31 @@
     width: 12rem;
 }
 
+.our_services_content_child_cards_1_card_title{
+    
+    height: 40%;
+    display: flex;
+    align-items: center;
+
+}
+.our_services_content_child_cards_1_card_title > h4{
+    font-size: 1.8rem;
+}
+.our_services_content_child_cards_1_card_img{
+    height: 60%;
+    display: flex;
+    align-items: center;
+}
+.our_services_content_child_cards_1_card_img > img{
+
+    width: 10rem;
+    padding-bottom: 3rem;
+}
+
+
 .our_services_content_child_img > img{
 
-width: 55rem;
+        width: 55rem;
 }
 
 
@@ -614,10 +636,34 @@ width: 55rem;
     justify-content: space-around;
     width: 100%;
 }
+.faq_card_img{
+    height: 60%;
+    display: flex;
+    justify-content: center;
+
+}
+.faq_card_icon{
+    height: 15%;
+}
+.faq_card_heading{
+    height: 15%;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.faq_card_heading > h4{
+    padding-top: 2rem;
+    text-align: center;
+    font-weight: 500;
+    width: 90%;
+    font-size: 1.8rem;
+}
+
 .faq_card{
-    padding: 2rem;
     margin: 2rem;
-    width: 25rem;
+    width: 30rem;
+    font-family: 'Inter', sans-serif;
     height: 30rem;
     border-radius: 1.5rem;
     display: flex;
@@ -630,7 +676,7 @@ width: 55rem;
 
 }
 .faq_card_img1{
-    width: 22rem;
+    height: 100%;
 }
 .faq_card_img2{
     width: 4rem;
@@ -648,72 +694,472 @@ width: 55rem;
     font-weight: 500;
     font-size: 5rem;
 }
-
 .flip-card {
-  border: 1px solid black;
-  }
-.card-containerr{
-    width: 25rem;
-    position: relative;
+    border: 1px solid black;
+    }
+  .card-containerr{
+      width: 25rem;
+      position: relative;
+      
+    }
     
-  }
-  
-  .the-card {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.6s;
-    transform-style: preserve-3d;
-  
-    box-shadow:
-    0px 0.9px 1.4px -2px rgba(0, 0, 0, 0.145),
-    0px 7px 11px -2px rgba(0, 0, 0, 0.29);
-    border-radius: 1.5rem;
-   
-    transform-style: preserve-3d;
-  }
-  .the-card:hover{
-    transform: rotateY(180deg);
-  }
-  .flip-card-front{
-    position:absolute;
-    backface-visibility: hidden;
-  }
-  .flip-card-back{
+    .the-card {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: transform 0.6s;
+      transform-style: preserve-3d;
     
-backface-visibility: hidden;
-transform: rotateY(180deg);
-display: flex;
-left:50%;
-gap:1rem;
+      box-shadow:
+      0px 0.9px 1.4px -2px rgba(0, 0, 0, 0.145),
+      0px 7px 11px -2px rgba(0, 0, 0, 0.29);
+      border-radius: 1.5rem;
+     
+      transform-style: preserve-3d;
+    }
+    .the-card:hover{
+      transform: rotateY(180deg);
+    }
+    .flip-card-front{
+      position:absolute;
+      backface-visibility: hidden;
+    }
+    .flip-card-back{
+      
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  display: flex;
+  left:50%;
+  gap:1rem;
+  
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+    }
 
-flex-direction: column;
-align-items: center;
-justify-content: center;
-  }
- 
-  
- 
-@media only screen and (min-device-width:320px) and (max-device-width:480px){
-    .get_started{
-        display: none;
+
+/* media  */
+@media only screen and (min-device-width : 120px) and (max-device-width : 770px) {
+    
+    .get-started-btn > div > h1{
+
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
+        text-align: center;
+        font-size: 16rem;
+    
+    }
+    .get-started-btn > div {
+        margin-top: -10rem;
     }
    
-}
-@media only screen and (min-device-width:320px) and (max-device-width:480px){
     .get_started{
-        display: none;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: auto;
+        width: 100vw;
+        margin-top: 5rem;
     }
-}
+
+    .get-started-btn {
+        margin-top: 20rem;
+        width: 85%;
+        height: 75rem;
+        margin-bottom: 6rem;
+    }
+    .get-started-btn > div{
+        display: flex;
+        height: 85rem;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .get-started-btn > div > p{
+        font-size: 6rem;
+        text-align: center;
+    }
+    .get_started_img > img{
+
+        width: 80%;
+        height: auto;    
+
+    }
+
+    .get_started_img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .get-started-btn > div > button {
+        height: 16rem;
+        width: 69rem;
+        font-size: 6rem;
+    }
+
+    /* welcome media from here */
+
+    .welcome_kalpataru{
+        margin-top: 0rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90vw;
+    }
+    .welcome_kalpataru_des{
+        width: 100%;
+    }
+    .welcome_kalpataru_des > div > h2{
+        font-size: 10rem;
+        margin-bottom: 5rem;
+    }
+    
+    .welcome_kalpataru_des_card > button {
+        border-radius: 1rem;
+        font-size: 4.5rem;
+        padding: 2.5rem 4rem 2.5rem 4rem;
+
+    }
+    .welcome_kalpataru_des > div{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .welcome_kalpataru_des_card{
+        width: 100%;
+        height: 57rem;
+    }
+    .welcome_kalpataru_des_card > p{
+            font-size: 3.8rem;
+            padding: 5rem;
+            
+    }
+
+    .welcome_kalpataru_img{
+        width: 100%;
+    }
+    .welcome_kalpataru_img > img{
+        width: 105rem;
+    }
+
+    /* features media */
+
+    .feature{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 100vw;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .feature_features{
+        width: 95%;
+    }
+    .feature_features > h1{
+        font-size: 10rem;
+        padding-bottom: 6rem;
+    }
+
+    .feature_features_boxes{
+        width: 100%;
+        margin-left: 0rem;
+    }
+    .feature_features_box{
+        width: 28rem;
+        height: 28rem;
+        border-radius: 1.8rem;
+    }
+    .feature_features_box > p{
+       font-size: 2.7rem;
+    }
+
+    .feature_img > img{
+        width: 65rem;
+        padding-top: 6rem;
+    }
+
+    /* features media */
+
+    .product_offered_div{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 3rem;
+        height: 140rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .product_offered_headline > h1{
+        font-size: 10rem;
+        position: relative;
+        top: 6rem;
+    }
+    .product_offered{
+        margin-top: 10rem;
+        width: 100vw;
+
+    }
+    .product_offered_div_img > img{
+        width: 90rem;
+    }
+    .product_offered_types{
+        width: 80%;
+        margin-top: 7rem;
+        display: flex;
+        justify-content: center;
+    }
+    .product_offered_types_div{
+        width: 90%;
+        height: 60rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .product_offered_types_div_div1{
+        width: 100%;
+        height: 25%;
+    }
+    .product_offered_types_div_div1 > button{
+        font-size: 4rem;
+        width: 29rem;
+        height: 13rem;
+        border-radius: 1.5rem;
+    }
+
+    .product_offered_types_div_div2{
+        width: 100%;
+        height: 70%;
+        align-items: center;
+    }
+
+    .product_offered_types_div_div2 > button{
+        
+        height: 11rem;
+        width: 98rem;
+        font-size: 4rem;
+    }
+
+    .drop_your_details_main_div{
+
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .drop_your_details_main_div > div {
+        width: 100%;
+    }
+    .drop_your_details_heading > h1 {
+        font-size: 10rem;
+        font-weight: 500;
+        text-align: center;
+    }
+    .drop_your_details {
+        margin-top: 7rem;
+    }
+
+    .drop_your_details > div > p {
+        font-size: 6.5rem;
+        padding-top: 5.9rem;
+    }
+    .drop_your_details_main_div_img > img {
+        width: 115rem;
+    }
+
+    .drop_your_details_main_div_inputs {
+        display: flex;
+        height: 45rem;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 0rem;
+    }
+    .drop_your_details_main_div_inputs > input {
+        font-size: 5.2rem;
+    }
+
+    .drop_your_details_btn > button {
+        margin-left: 0rem;
+        margin-top: 3rem;
+        border-radius: 1rem;
+        font-size: 5.5rem;
+        padding: 3rem 16rem 3rem 16rem;
+    }
+    .drop_your_details_btn {
+        justify-content: center;
+    }
+    .know_more {
+        height: 150rem;
+        margin-top: 10rem;
+    }
+    .know_more > div {
+        width: 85%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .know_more_btn > button {
+     
+        background-color: #103E60;
+        color: white;
+        border-radius: 1rem;
+        padding: 2rem 7rem 2rem 7rem;
+        border-style: none;
+        font-size: 5.5rem;
+    }
+    .know_more_btn > h1 {
+        font-size: 8rem;
+    }
+
+    .know_more_btn > p {
+        font-size: 5rem;
+    }
+    .know_more_btn {
+        height: 55rem;
+        margin-top: 10rem;
+    }
+    .know_more_img > img {
+        width: 76rem;
+    }
 
 
+    /* our services  */
 
+    .our_services {
+        width: 85vw;
+        height: 170rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 18rem;
+    }
+    
+    .our_services_content_child {
+        flex-direction: column-reverse;
+        align-items: center;
+        height: 100%;
+    }
+    .our_services_content{
+        height: 92%;
+    }
+    .our_services_heading > h2 {
+        font-size: 10rem;
+        text-align: center;
 
+    }
+    .our_services_content_child_cards {
+        display: flex;
+        width: 100%;
+        height: 77rem;
+        flex-direction: column;
+    }
+    .our_services_child {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+    
+    .our_services_content_child_cards {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
 
+    .testimonials_content_child_all_cards {
+        width: 100%;
+    }
+    
+    .our_services_content_child_cards_1 {
+        margin-left: -6rem;
+    }
+    .our_services_content_child_cards_2 {
+        margin-left: -6rem;
+    }
+    .our_services_content_child_cards_1_card > div{
+        height: 28rem;
+        width: 28rem;
+    }
+    .our_services_content_child_cards_1_card_title > h4 {
+        font-size: 3.4rem;
+    }
+    .our_services_content_child_cards_1_card_img > img {
+        width: 18rem;
+    }
+    .our_services_content_child_img > img {
+        width: 86rem;
+    }
+    /* testimonial  */
 
+    .testimonials_heading > h1 {
+        width: 100%;
+        padding-bottom: 8rem;
+        text-align: center;
+        font-family: 'Inter', sans-serif;
+        font-size: 10rem;
+        font-weight: 500;
+    }
+    .testimonials_content_child_2arrow_img > div > img {
+        width: 0rem;
+    }
+    
+    .testimonials_content_child_2arrow_img {
+    width: 0%;
+    }
+    .testimonials_content_child {
+        width: 100%;
+    }
+    .testimonials_content_child {
+        width: 100%;
+        height: 100%;
+    }    
+    .testimonials_content_child_all_cards_crd {
+        width: 24rem;
+        height: 29rem;
+    }
+    .testimonials_content_child_all_cards_crd_img > p >img {
+        bottom: 23.3rem;
+        left: 9.6rem;
+    }
+    }   
+    .testimonials_content_child_all_cards_crd_txt > div > h2 {
+        font-size: 3.1rem;
+    }
 
+    /* faq  */
+    .faq_heading > h1 {
+        font-size: 10rem;
+        font-weight: 500;
+    }
+    
+   @media only screen and (min-device-width : 770px) and (max-device-width : 1220px) {
+    
+    .testimonials_content_child {
+        width: 100%;
+    }
+    .testimonials_content_child_all_cards_crd_txt > div > h2 {
+        font-size: 2.3rem;
+    }
+    .testimonials_content_child_all_cards_crd {
+        width: 22rem;
+        height: 27rem;
+    }
+    .testimonials_content_child_all_cards_crd_txt > div > p {
+        font-size: 1rem;
+    }
+    
+   }
 
-
-
-
+    
+    /* media  */

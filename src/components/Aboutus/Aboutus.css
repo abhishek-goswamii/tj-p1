@@ -1,9 +1,9 @@
 .Aboutus {
     display: flex;
     flex-direction: column;
-    justify-content: center !important;
-    align-items: center !important;
-    width: 134rem;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
     height: max-content;
     padding: 2rem 0rem;
     font-family: 'Inter';
@@ -51,6 +51,7 @@
 
 .Aboutus .card1 .photo img {
     margin-left: 5rem;
+    width: 100%;
 
 }
 
@@ -81,6 +82,7 @@
 .Aboutus .card2 .text {
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
     padding: 2rem 2rem;
+    margin-left: 1rem;
 }
 
 .Aboutus .card3 {
@@ -132,6 +134,10 @@
     padding-bottom: 4rem;
     
 }
+.Aboutus h2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 
 .Aboutus .card4 .left {
     display: flex;
@@ -149,6 +155,7 @@
 .Aboutus .card4 .right .row1 {
     display: flex;
     flex-direction: row;
+    margin-bottom: 2rem;
 }
 
 .Aboutus .card4 .right .row1 h3 {
@@ -157,12 +164,14 @@
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
     border-radius: 1rem;
 }
-.Aboutus .card4 .right .row1 h4 {
+.Aboutus .card4 .right .row1  h4 {
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
     border-radius: 1rem;
     margin-left: 5rem;
   }
+  
 
+ 
 .Aboutus .card4 .right .row2 {
     display: flex;
     flex-direction: row;
@@ -175,6 +184,7 @@
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
     border-radius: 1rem;
     
+    
 }
 
 .Aboutus .card4 .right .row2 h6{
@@ -182,5 +192,253 @@
     left: 5rem;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
     border-radius: 1rem;
+    text-align: left;
     
 }
+.rowimg{
+    width: 100%;
+}
+.rowimgone{
+    
+    width:100%;
+    height:100%;
+}
+
+@media only screen and (min-device-width:320px) and (max-device-width:480px){
+    
+    .Aboutus .card1{
+        background-color: #FFF6EA;
+        flex-direction: column;
+    }
+    .Aboutus .card1 .text{
+        width: 100%;
+        text-align: center;
+    }
+    .Aboutus .card1 .text h3{
+        width: 100%;
+        font-size: 5 rem;
+        margin-left: 0%;
+       
+
+    }
+    .Aboutus .card1 .text p{
+        width: 100%;
+        margin-left: 0%;
+        
+    }
+    .Aboutus .card1 .photo{
+        
+        width: 100%;
+        
+        
+    }
+    .Aboutus .card1 .photo img{
+        margin-left: 2rem;
+        width: 95%;
+    }
+    .Aboutus .card2 {
+        flex-direction: column-reverse;
+        align-content: center;
+    }
+    .Aboutus .card2  .text p{ 
+        font-size: 2.5rem;
+
+    }
+    /*.Aboutus .card3 .row{
+        flex-direction: column;
+        gap: 1.2rem;
+        margin-top: 1rem;
+        margin-bottom: 0%;
+    }
+    .Aboutus .card3 .row .crd img {
+        width: 34rem;
+     
+    }
+    .Aboutus .card3 .row .crd h3 {
+        
+        margin-left: 6rem;
+         padding-top: 2rem;
+    }
+    .Aboutus .card3 .row .crd{
+        width: 35rem;
+    }*/
+    .Aboutus .card3 .row{
+        flex-direction: column;
+        gap: 1.2rem;
+        margin-top: 1rem;
+        margin-bottom: 0%;
+    }
+    .Aboutus .card3 .row .crd {
+        flex-direction: row ;
+    }
+    .Aboutus .card3 .row .crd img {
+        width: 30rem;
+     
+    }
+    .Aboutus .card3 .row .crd h3 {
+        font-size: 2.7rem;
+        margin-left: 2rem;
+        margin-top: 3rem;
+         padding-top: 2rem;
+    }
+    .Aboutus .card3 .row .crd{
+        width: 40rem;
+    }
+
+    .Aboutus .card4 {
+        flex-direction: column-reverse;
+    }
+    .Aboutus .card4 .left{
+        width: 100%;
+      justify-content: center;  
+        align-items: center;
+        margin-top: 2rem;
+    }
+    .Aboutus .card4 .left img{
+        width: 40%;
+    }
+    .Aboutus .card4 .left p{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .Aboutus .card4 .right{
+        width:  100%;
+    }
+    .Aboutus .card4 .right .row1 {
+        margin-top:2rem;
+        margin-bottom: 2rem;
+    }
+    .Aboutus .card4 .right .row1 h3{
+        top: 0%;
+    }
+    .Aboutus .card4 .right .row2 h5{
+        top: 0%;
+        left: 0%;
+        
+    }
+    .Aboutus .card4 .right .row2 h6{
+        left: 4rem;
+    }
+    
+    
+
+    
+}
+
+@media only screen and (min-device-width:480px) and (max-device-width:768px){
+   
+    .Aboutus .card1{
+        background-color: #FFF6EA;
+        flex-direction: column;
+    }
+    .Aboutus .card1 .text{
+        width: 100%;
+        text-align: center;
+    }
+    .Aboutus .card1 .text h3{
+        width: 100%;
+        font-size: 5 rem;
+        margin-left: 0%;
+       
+
+    }
+    .Aboutus .card1 .text p{
+        width: 100%;
+        margin-left: 0%;
+        
+    }
+    .Aboutus .card1 .photo{
+        width: 90%;
+        
+        
+    }
+    .Aboutus .card2 {
+        flex-direction: column-reverse;
+        align-content: center;
+    }
+    .Aboutus .card2  .text p{ 
+        font-size: 2.5rem;
+
+    }
+    .Aboutus .card3 .row{
+        
+        gap: 8rem;
+    }
+    .Aboutus .card3 .row .crd{
+        padding: 2.4rem;
+    }
+    .Aboutus .card4 {
+        flex-direction: column-reverse;
+    }
+    .Aboutus .card4 .left{
+        width: 100%;
+      justify-content: center;  
+        align-items: center;
+        margin-top: 3rem;
+    }
+    .Aboutus .card4 .left img{
+        width: 45%;
+    }
+    .Aboutus .card4 .left p{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .Aboutus .card4 .right{
+        width:  100%;
+        text-align: center;
+    }
+    .Aboutus .card4 .right .row1 {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .Aboutus .card4 .right .row1 h3{
+        top: 0%;
+    }
+    .Aboutus .card4 .right .row2 h5{
+        top: 0%;
+        left: 0%;
+    }
+    .Aboutus .card4 .right .row2 h6{
+        left: 4rem;
+    }
+    .rowimgone{
+    
+        width:100%;
+        height:100%;
+    }
+    
+   
+}
+
+@media only screen and (min-device-width:768px) and (max-device-width:1240px){
+    .Aboutus{
+        width: auto;
+        
+    }
+    .Aboutus .card1 .photo img {
+        margin-left: 0rem;
+       
+    }
+    .Aboutus h2 {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .Aboutus .card4 .left {
+        margin-top: 2rem;
+    }
+    .Aboutus .card4 .left img{
+        width: 90%;
+    }
+    
+
+}
+
+/*@media only screen and (min-device-width:320px) and (max-device-width:480px){
+
+    .card1{
+        
+        flex-direction: column-reverse;
+        
+    }
+    
+}*/

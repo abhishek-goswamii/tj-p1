@@ -1,6 +1,7 @@
 import React from 'react'
 import './general_insurance.css'
 import insurance_topimg from '../../assets/images/general_insurance/general_insurance_topimg.png'
+import up_triangle from '../../assets/images/general_insurance/up_triangle.png'
 
 const GeneralInsurance = () => {
     return (
@@ -31,13 +32,14 @@ const GeneralInsurance = () => {
                     <div className='insurance_mid_performance2'>
 
                         <div className='insurance_mid_performance2_low'>
-                            <h3>Today Low</h3> <h3>110.60</h3>
+                            <h2>Today Low</h2> <h3>110.60</h3>
                         </div>
                         <div className='insurance_mid_performance2_bar'>
                             <div></div>
+                            <p className='insurance_up_triangle_today'><img src={up_triangle} alt="" /></p>
                         </div>
                         <div className='insurance_mid_performance2_high'>
-                            <h3>Today High</h3> <h3>115.45</h3>
+                            <h2>Today High</h2> <h3>115.45</h3>
 
                         </div>
                     </div>
@@ -46,21 +48,28 @@ const GeneralInsurance = () => {
                     </div>
 
                 </div>
+
                 <div className='insurance_mid_performance'>
 
                     <div className='insurance_mid_performance2'>
 
                         <div className='insurance_mid_performance2_low'>
-                            <h3>52W Low</h3> <h3>110.60</h3>
+                            <h2>52W Low</h2> <h3>110.60</h3>
                         </div>
+
                         <div className='insurance_mid_performance2_bar'>
                             <div></div>
-                        </div>
-                        <div className='insurance_mid_performance2_high'>
-                            <h3>52W High</h3> <h3>115.45</h3>
+                            <p className='insurance_up_triangle_52w'><img src={up_triangle} alt="" /></p>
 
                         </div>
+
+                        <div className='insurance_mid_performance2_high'>
+                            <h2>52W High</h2> <h3>115.45</h3>
+
+                        </div>
+
                     </div>
+
                     <div className='insurance_mid_performance3'>
                         <div className='insurance_mid_performance3_child'>
 

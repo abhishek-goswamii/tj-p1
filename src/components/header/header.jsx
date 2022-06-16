@@ -3,14 +3,21 @@ import "./header.css";
 import navBarImage from "../../assets/images/navbar-image.png";
 import Homepage from "../homepage/homepage";
 import Sidebar from "../SideBar/Sidebar";
+import { Navigate, useNavigate } from "react-router-dom";
 
 const Header = ({ openModal, setOpenModal }) => {
+	const navigate = useNavigate();
 	return (
 		<>
 			<div className="navbar">
 				<div className="navbar_child_div">
 					<div className="navbar_image">
-						<img src={navBarImage}></img>
+						<img
+							src={navBarImage}
+							onClick={() => {
+								navigate("/");
+							}}
+						></img>
 					</div>
 
 					<div className="navbar_elements">

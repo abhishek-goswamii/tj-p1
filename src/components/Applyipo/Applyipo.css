@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 134rem;
+    width: 100vw;
     height: max-content;
     padding: 2rem 0rem;
 
@@ -16,7 +16,7 @@
     justify-content: center;
     align-items: center;
     background-color: #FFBE9D;
-
+ 
 }
 
 .Applyipo .card1 .text {
@@ -24,7 +24,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 35%;
     padding-top: 5rem;
     height: fit-content;
 
@@ -45,10 +45,13 @@
     border-radius: 1rem;
     font-size: 2rem;
 }
-
+.Applyipo .card1 .photo{
+    width: 60%
+}
 .Applyipo .card1 .photo img {
-    width: 85rem;
-    height: 52rem;
+    /*width: 85rem;
+    height: 52rem;*/
+    width: 80%;
 
 }
 
@@ -58,12 +61,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 90%;
+    width: 100%;
+    overflow-x: auto;
 }
 
 .Applyipo .card2 h1 {
     font-size: 5rem;
-    margin-right: 12rem;
+    padding-right: 6rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .Applyipo .card2 h2 {
@@ -72,19 +78,30 @@
     color: #FFFFFF;
     font-size: 4rem;
     text-align: center;
-    padding: 1rem 1rem;
+    padding: 1rem 0rem;
 }
 
-
+.table-details{
+    max-width: 100%;
+    overflow-x:scroll;
+}
 .Applyipo .card2 table {
+    
     font-size: 5rem;
     border-collapse: collapse;
-    padding: 0rem;
+    margin: 0%;
+    padding: 2rem;
 }
+.Applyipo .card2 table th {
+    
+    font-size: 1.5rem;
 
+    padding: 3rem 0rem;
+    background-color: #FFBE9D;
+}
 .Applyipo .card2 table td {
     font-size: 1.5rem;
-    padding: 2rem 0.5rem;
+    padding: 2.5rem 0rem;
     background-color: #FFBE9D;
 }
 
@@ -92,5 +109,114 @@
     background-color: #103E60;
     border-radius: 0.2rem;
     color: white;
-    padding: 1rem 2rem;
+    padding: 0%;
+}
+
+@media only screen and (min-device-width:320px) and (max-device-width:480px){
+    
+   
+    .Applyipo{
+        width: 100%;
+        
+        
+        
+        text-align: center;
+        
+       
+    }
+    .Applyipo .card1{
+        flex-direction: column;
+        justify-content: center;
+       
+        text-align: center
+    }
+    .Applyipo .card1 .text{
+        width: 80%;
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: center;
+         box-shadow: 9px 19px 5px rgb(0 0 0 / 49%);
+        
+    }
+    .Applyipo .card1 .text h3{
+        text-align: center;
+        margin-left: 0%;
+        
+    }
+    .Applyipo .card1 .photo{
+        width: 80%;
+    }
+    .Applyipo .card2 {
+        align-items: flex-start;
+        
+       
+    }
+    .Applyipo .card2 h1{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+            padding: 2rem;
+            
+        
+    }
+
+    
+    
+    
+    
+}
+@media only screen and (min-device-width:480px) and (max-device-width:768px){
+    .Applyipo{
+        width: auto;
+        text-align: center;
+    }
+    .Applyipo .card1{
+        flex-direction: column;
+        
+    }
+    .Applyipo .card1 .text{
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: center;
+         box-shadow: 9px 19px 5px rgb(0 0 0 / 49%);
+    }
+    .Applyipo .card1 .text h3{
+       
+        margin-left: 0%;
+    }
+    .Applyipo .card1 .photo{
+        width: 100%;
+    }
+    .Applyipo .card1 .photo img{
+        width: 60%;
+    } 
+    
+    .Applyipo .card2 h1{
+        
+        
+        padding-right: 0%;
+        
+    }
+    .Applyipo .card2 .table-details th{
+        font-size: 2rem;
+
+    }
+    .Applyipo .card2 .table-details td{
+        font-size: 1.8rem;
+
+    }
+    
+}
+@media only screen and (min-device-width:768px) and (max-device-width:1240px){
+    .Applyipo{
+       width: auto;
+       text-align: center;
+    }
+    .Applyipo .card2 h1{
+        text-align: center;
+        margin-right:0% ;
+    }
 }

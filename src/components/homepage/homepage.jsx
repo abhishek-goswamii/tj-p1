@@ -1,7 +1,7 @@
 import React from "react";
 import getStartedIMage from "../../assets/images/Investment-data-img.png";
 import welcomeImage from "../../assets/images/welcome_img.png";
-import "../homepage/homepage.css";
+import "./homepage.css";
 import featureImage from "../../assets/images/features_img.png";
 import arrowImage from "../../assets/images/arrow _img.png";
 import productOfferedImage from "../../assets/images/product_offered_img.png";
@@ -72,6 +72,7 @@ const Homepage = () => {
 							Welcome To Kalpataru <br />
 							Multiplier Ltd.
 						</h2>
+
 						<div className="welcome_kalpataru_des_card">
 							<p>
 								Kalpataru is a wishful Devine Tree and in present context a
@@ -82,6 +83,7 @@ const Homepage = () => {
 								Trading, Commodity, Derivative (F&O) Trading, Currency, IPO,
 								Demat, Mutual Fund and Pan Card Services.
 							</p>
+
 							<button>Read More</button>
 						</div>
 					</div>
@@ -173,6 +175,7 @@ const Homepage = () => {
 					</div>
 				</div>
 			</div>
+
 			{/* drop your details */}
 
 			<div className="drop_your_details">
@@ -235,52 +238,94 @@ const Homepage = () => {
 								<div className="our_services_content_child_cards_1">
 									<div className="our_services_content_child_cards_1_card">
 										<div>
-											<h4>Mutual Fund</h4>
-											<img src={img11} alt="" />
+											<div className="our_services_content_child_cards_1_card_title">
+												<h4>Mutual Fund</h4>
+											</div>
+											<div className="our_services_content_child_cards_1_card_img">
+												<img src={img11} alt="" />
+											</div>
 										</div>
 									</div>
 									<div className="our_services_content_child_cards_1_card">
 										<div>
-											<h4>MTradingutual</h4>
-											<img src={img12} alt="" />
+											<div className="our_services_content_child_cards_1_card_title">
+												<h4>Trading</h4>
+											</div>
+											<div className="our_services_content_child_cards_1_card_img">
+												<img src={img12} alt="" />
+											</div>
 										</div>
 									</div>
 									<div className="our_services_content_child_cards_1_card">
 										<div>
-											<h4>Equity</h4>
-											<img src={img13} alt="" />
+											<div className="our_services_content_child_cards_1_card_title">
+												<h4>Equity</h4>
+											</div>
+											<div className="our_services_content_child_cards_1_card_img">
+												<img src={img13} alt="" />
+											</div>
 										</div>
 									</div>
+
 									<div className="our_services_content_child_cards_1_card">
 										<div>
-											<h4>Depository</h4>
-											<img src={img14} alt="" />
+											<div className="our_services_content_child_cards_1_card_title">
+												<h4>Depository</h4>
+											</div>
+
+											<div className="our_services_content_child_cards_1_card_img">
+												<img src={img14} alt="" />
+											</div>
 										</div>
 									</div>
 								</div>
+
 								<div className="our_services_content_child_cards_2">
 									<div className="our_services_content_child_cards_1_card">
 										<div>
-											<h4>IPO</h4>
-											<img src={img21} alt="" />
+											<div className="our_services_content_child_cards_1_card_title">
+												<h4>IPO</h4>
+											</div>
+
+											<div className="our_services_content_child_cards_1_card_img">
+												<img src={img21} alt="" />
+											</div>
 										</div>
 									</div>
+
 									<div className="our_services_content_child_cards_1_card">
 										<div>
-											<h4>General Insurance</h4>
-											<img src={img22} alt="" />
+											<div className="our_services_content_child_cards_1_card_title">
+												<h4>General Insurance</h4>
+											</div>
+
+											<div className="our_services_content_child_cards_1_card_img">
+												<img src={img22} alt="" />
+											</div>
 										</div>
 									</div>
+
 									<div className="our_services_content_child_cards_1_card">
 										<div>
-											<h4>PAN CARD</h4>
-											<img src={img23} alt="" />
+											<div className="our_services_content_child_cards_1_card_title">
+												<h4>PAN CARD</h4>
+											</div>
+
+											<div className="our_services_content_child_cards_1_card_img">
+												<img src={img23} alt="" />
+											</div>
 										</div>
 									</div>
+
 									<div className="our_services_content_child_cards_1_card">
 										<div>
-											<h4>SGB</h4>
-											<img src={img24} alt="" />
+											<div className="our_services_content_child_cards_1_card_title">
+												<h4>SGB</h4>
+											</div>
+
+											<div className="our_services_content_child_cards_1_card_img">
+												<img src={img24} alt="" />
+											</div>
 										</div>
 									</div>
 								</div>

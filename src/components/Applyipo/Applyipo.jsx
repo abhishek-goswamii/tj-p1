@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 
 export class Applyipo extends PureComponent {
-    render() {
+     render() {
         return (
             <div className='Applyipo'>
 
@@ -23,11 +23,12 @@ export class Applyipo extends PureComponent {
                 <div className="card2">
                     <h1>IPOs / Takeovers / Buybacks / Delistings</h1>
                     <h2>Current Issue</h2>
+                    <div className='table-details'>
                     <table>
                         <tr>
                             <th>Name</th>
                             <th>Symbol</th>
-                            <th>Categorie</th>
+                            <th>Categorie</th> 
                             <th>Types Of Issue</th>
                             <th>Exchange</th>
                             <th>Start Date</th>
@@ -47,7 +48,7 @@ export class Applyipo extends PureComponent {
                             <td>26-05-2022
                                 17:00:00</td>
                             <td>610.00-642.00</td>
-                            <td>23 <Link to='./Applyipo'><span>Apply IPO</span></Link></td>
+                            <td>23 <Link to='./Applyipo'><span className='table-span'>Apply IPO</span></Link></td>
                         </tr>
                         <tr>
                             <td></td>
@@ -96,6 +97,7 @@ export class Applyipo extends PureComponent {
                         </tr>
 
                     </table>
+                    </div>
                 </div>
 
             </div>

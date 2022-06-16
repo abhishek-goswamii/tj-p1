@@ -20,6 +20,7 @@ const Blog = () => {
                         (Personal Computer) from anywhere like Office, Car Bus, Train, Plane or even from your living room. Not only this you can also trade in share
                         Commodity Derivative, Currency Derivative. You can avail so many services and conveniences offered by Kalpataru.</h3>
                         <br/>
+                        <br/>
                     <p>Perfect transparency in accounting personalized services, intelligent suggestions, satisfying solution, D.P. accounts holding, and Portfolio Investment advice just by one “Click”.</p>
                 </div>
                 <div className='blog_page_main_div_icons'>
