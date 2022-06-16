@@ -26,6 +26,8 @@ import Signup from "./components/Signup/Signup";
 import Applyipo from "./components/Applyipo/Applyipo";
 import ApplyMutual from "./components/Applymutual/Applymutual";
 import GeneralInsurance from "./components/general insurance/general_insurance";
+import ContactUs from "./components/contactUs/contactUs";
+import PanCard from "./components/pan_card/pan_card";
 
 function App() {
 	const [openModal, setOpenModal] = useState(false);
@@ -51,10 +53,10 @@ function App() {
 				<Route exact path="/services" element={<Services />}></Route>
 				<Route exact path="/trading" element={<Trading />}></Route>
 				<Route exact path="/payments" element={<Payments />}></Route>
-				<Route exact path="/footer" element={<Footer />}></Route>
+
 				<Route exact path="/blogs" element={<Blog />}></Route>
 				<Route exact path="/" element={<Homepage />}></Route>
-				<Route exact path="/header" element={<Header />}></Route>
+
 				<Route exact path="/depository" element={<Depository />}></Route>
 				<Route exact path="/about-us" element={<Aboutus />}></Route>
 				<Route exact path="/adv" element={<Advisory />}></Route>
@@ -70,6 +72,8 @@ function App() {
 				<Route exact path="/signup" element={<Signup />}></Route>
 				<Route exact path="/apply-ipo" element={<Applyipo />}></Route>
 				<Route exact path="/apply-mutual" element={<ApplyMutual />}></Route>
+				<Route exact path="/contact-us" element={<ContactUs />}></Route>
+				<Route exact path="/pan-card" element={<PanCard />}></Route>
 				<Route
 					exact
 					path="/general-insurence"

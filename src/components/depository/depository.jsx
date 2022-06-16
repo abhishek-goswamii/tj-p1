@@ -14,7 +14,6 @@ const Depository = () => {
                 <div className='depository_top_img'>
                     <img src={mainimg} alt="" />
                 </div>
-
             </div>
 
             <div className='depository_page_data'>

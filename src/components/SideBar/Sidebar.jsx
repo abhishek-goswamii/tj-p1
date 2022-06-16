@@ -33,8 +33,38 @@ export const Sidebar = ({ openModal, setOpenModal }) => {
 							<Link to="/trading">
 								<a>Trading</a>
 							</Link>
-							<Link to="/payments">
-								<a>Payments</a>
+							<Link to="/blogs">
+								<a>Blogs</a>
+							</Link>
+							<Link to="/depository">
+								<a>Depository</a>
+							</Link>
+							<Link to="/about-us">
+								<a>About Us</a>
+							</Link>
+							<Link to="/ipo">
+								<a>IPO</a>
+							</Link>
+							<Link to="/margincal">
+								<a>Margin Calculator</a>
+							</Link>
+							<Link to="/investor">
+								<a>Investor</a>
+							</Link>
+							<Link to="/sgb">
+								<a>SGB</a>
+							</Link>
+							<Link to="/apply-ipo">
+								<a>Apply IPO</a>
+							</Link>
+							<Link to="/contact-us">
+								<a>Contact Us</a>
+							</Link>
+							<Link to="/pan-card">
+								<a>Pan Card</a>
+							</Link>
+							<Link to="/general-insurence">
+								<a>General Insurence</a>
 							</Link>
 						</li>
 					</ul>
